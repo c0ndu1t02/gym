@@ -59,22 +59,6 @@ footer {
   color: black;
 }
 
-.project-tile {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  height: 95%;
-  width: 100%;
-}
-
-.project-links {
-  background-color: #b8bfc7;
-  border-radius: 50%;
-  margin: 0 auto;
-  height: 90%;
-  width: 70%;
-}
-
 .icon-references {
   color: #D6E4E5;
   display: block;
@@ -84,6 +68,20 @@ footer {
 
 .icon-references:hover {
   color: #EFF5F5;
+}
+
+.programming-img {
+  float: left;
+  height: 20%;
+  margin-right: 30px;
+  width: 20%;
+}
+
+.tinker-img {
+  float: right;
+  height: 40%;
+  margin-left: 30px;
+  width: 40%;
 }
 
 /*---------------- ID SELECTORS ------------------*/
@@ -152,6 +150,20 @@ footer {
 
 #construction {
   color: black;
+}
+
+#programming {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+#tinker {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
 }
 
 /*---------------- MEDIA QUERIES ------------------*/
