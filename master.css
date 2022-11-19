@@ -165,11 +165,3 @@ footer {
   text-align: left;
   width: 50%;
 }
-
-/*---------------- MEDIA QUERIES ------------------*/
-
-@media screen and (max-width: 600px) {
-  nav {
-    background-color: gray;
-  }
-}
