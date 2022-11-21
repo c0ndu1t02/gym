@@ -48,10 +48,12 @@ h2, h3 {
 
 .about-heading {
   text-align: center;
+  padding-top: 30px;
 }
 
 .about-me, .programming, .tinkering {
   margin: 20px auto;
+  padding-top: 70px;
 }
 
 .web-coding-img {
@@ -64,6 +66,7 @@ h2, h3 {
 .mobile-coding-img {
   height: 13vh;
   float: left;
+  padding-right: 20px;
   width: 8vw;
 }
 
@@ -102,6 +105,10 @@ h2, h3 {
 }
 
 /* Section Section */
+
+.section-1, .section-2 {
+  height: 50vh;
+}
 
 .colored-section {
   background-color: #398AB9;
@@ -211,7 +218,7 @@ h2, h3 {
     );
   display: flex;
   justify-content: center;
-  height: 50px;
+  height: 70px;
   padding-top: 10px;
 }
 
