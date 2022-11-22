@@ -106,10 +106,6 @@ h2, h3 {
 
 /* Section Section */
 
-.section-1, .section-2 {
-  height: 50vh;
-}
-
 .colored-section {
   background-color: #398AB9;
 }
